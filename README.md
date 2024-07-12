@@ -27,24 +27,24 @@ Troubleshoot Connections
 
 System StatusAll Good
 ©2024 MongoDB, Inc.StatusTermsPrivacyAtlas Blog -->
-# Esc-App-Ade
-#### The app that helps you escape and explore 
 
+# Esc-App-Ade
 
 [![My Skills](https://skillicons.dev/icons?i=mongo,express,react,nodejs,js,html,css,mui)](https://skillicons.dev)
 
-## Resources
+### API's 
 
-- [Google Geocoding](https://developers.google.com/maps/documentation/geocoding/overview)
+#### Client 
 - [GlobeGL](https://globe.gl/)
+
+#### Server
+- [Google Geocoding](https://developers.google.com/maps/documentation/geocoding/overview)
 - [Ticketmaster API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
 - [WeatherAPI](https://weatherstack.com/)
 - [IPStack (Location Tracking)](https://ipstack.com/)
 - [UA Parser Agent](https://www.npmjs.com/package/ua-parser-js)
 - [Dotenv](https://www.npmjs.com/package/dotenv) 
 
-
-## Note
 
 This project follows the MVC (Model View Controller) Pattern.
 
