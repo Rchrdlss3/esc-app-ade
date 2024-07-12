@@ -3,6 +3,7 @@
 ## Overview
 WIP
 ## Installation
+### Server Side
 ```
 npm i dotenv
 ```
@@ -15,3 +16,4 @@ npm i mongoose
 ```
 npm i nodemon
 ```
+### Client Side
