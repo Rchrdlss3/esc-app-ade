@@ -5,7 +5,7 @@ class Font {
     }
 }
 
-export class Theme {
+class Theme {
     constructor(primary, secondary, tertiary, main, font, isMobile, logo) {
         this.primary = primary;
         this.secondary = secondary;
