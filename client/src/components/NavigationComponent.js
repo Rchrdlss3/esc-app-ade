@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navigation = () => {
+export default function NavigationComponent () {
     return (
         <nav>
             <ul>
@@ -18,5 +18,3 @@ const Navigation = () => {
         </nav>
     );
 };
-
-export default Navigation;
