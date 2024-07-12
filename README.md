@@ -28,36 +28,24 @@ Troubleshoot Connections
 System StatusAll Good
 ©2024 MongoDB, Inc.StatusTermsPrivacyAtlas Blog -->
 # Esc-App-Ade
+#### The app that helps you escape and explore 
+
 
 [![My Skills](https://skillicons.dev/icons?i=mongo,express,react,nodejs,js,html,css,mui)](https://skillicons.dev)
 
-## Table of Contents
+## Resources
 
-- [Overview](#overview)
-- [Installation](#installation)
-  - [Server Side](#server-side)
-  - [Client Side](#client-side)
-- [Project Structure](#project-structure)
+- [Google Geocoding](https://developers.google.com/maps/documentation/geocoding/overview)
+- [GlobeGL](https://globe.gl/)
+- [Ticketmaster API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
+- [WeatherAPI](https://weatherstack.com/)
+- [IPStack (Location Tracking)](https://ipstack.com/)
+- [UA Parser Agent](https://www.npmjs.com/package/ua-parser-js)
+- [Dotenv](https://www.npmjs.com/package/dotenv) 
 
-## Overview
-MERN Stack Web Applcation. WIP
 
-## Installation
+## Note
 
-### Server Side
-```
-npm i dotenv
-```
-```
-npm i ua-parser-js
-```
-```
-npm i mongoose
-```
-```
-npm i nodemon
-```
-```
-npm i uuid
-```
-### Client Side
+This project follows the MVC (Model View Controller) Pattern.
+
+If you have any questions or need further assistance, feel free to ask!
