@@ -1,15 +1,21 @@
 const UserSchema = require('../models/UserModel');
 var jwt = require('jsonwebtoken');
+const getDevice = require('../helpers/functions')
 
 module.exports = {
-    get: (req,res) => {
+    get: async (req,res) => {
+        const device  = getDevice(req)
         const userInfo = req.body;
-        const user = await UserSchema.findOne({})
+        const user = await UserSchema.findOne({
+            userIPAdress: userInfo.ipAddress
+        })
         if (user) {
-            res.status(200).send()
+            res.status(200).send(user)
         } else {
-        
-            res.status(201).send(`New User created`)
+            const newUser = await UserSchema.create({
+                userIPAdress : userInfo.ipAddress
+            })
+            res.status(201).send(newUser)
         }
     }
 }
