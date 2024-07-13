@@ -18,12 +18,7 @@ const UserSchema = Schema({
     longitude: {
         type: String,
         required: false
-    },
-    device: {
-        type: String,
-        required: true
     }
- 
 })
 
 module.exports = mongoose.model('UserSchema',UserSchema)
