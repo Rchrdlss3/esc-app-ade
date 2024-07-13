@@ -33,7 +33,7 @@ export const darkTheme = new Theme(
     "#161006",
     "#72501f",
     TigerEyeOrange,
-    new Font("#000000",TigerEyeOrange),
+    new Font("#ffffff",TigerEyeOrange),
     false,
     ""
 )
