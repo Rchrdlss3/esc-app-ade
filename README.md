@@ -1,4 +1,6 @@
 <!-- 
+
+IDE IS VSCODE
 Steps to connect with VSCode
 Connect to Escappade
 Set up connection security
@@ -30,7 +32,7 @@ System StatusAll Good
 
 # Esc-App-Ade
 
-[![My Skills](https://skillicons.dev/icons?i=mongo,express,react,nodejs,js,html,css,mui)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=mongo,express,react,nodejs,js,html,css)](https://skillicons.dev)
 
 ## Overview
 MERN Stack Web Application. WIP
