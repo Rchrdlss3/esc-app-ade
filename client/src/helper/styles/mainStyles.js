@@ -6,6 +6,7 @@ export function mainStyle(theme) {
         width: '100vw',
         height: '100vh',
         backgroundColor: theme.primary,
-        color: theme.font.regular
+        color: theme.font.regular,
+        transition: '1s'
     }
 }
