@@ -32,20 +32,41 @@ System StatusAll Good
 
 [![My Skills](https://skillicons.dev/icons?i=mongo,express,react,nodejs,js,html,css,mui)](https://skillicons.dev)
 
-### API's 
+## Overview
+MERN Stack Web Application. WIP
 
-#### Client 
-- [GlobeGL](https://globe.gl/)
+## Table of Contents
 
-#### Server
+- [Overview](#overview)
+- [Installation](#installation)
+  - [Server Side](#server-side)
+  - [Client Side](#client-side)
+- [Project Structure](#project-structure)
+## API's 
 - [Google Geocoding](https://developers.google.com/maps/documentation/geocoding/overview)
 - [Ticketmaster API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
 - [WeatherAPI](https://weatherstack.com/)
-- [IPStack (Location Tracking)](https://ipstack.com/)
-- [UA Parser Agent](https://www.npmjs.com/package/ua-parser-js)
-- [Dotenv](https://www.npmjs.com/package/dotenv) 
+- [IPStack](https://ipstack.com/)
 
+## Installation
 
-This project follows the MVC (Model View Controller) Pattern.
-
-If you have any questions or need further assistance, feel free to ask!
+### Server
+```
+npm i ua-parser-js
+```
+```
+npm i dotenv
+```
+```
+npm i mongoose
+```
+```
+npm i nodemon
+```
+```
+npm i uuid
+```
+#### Client 
+```
+npm i globe.gl
+```
