@@ -1,3 +1,4 @@
+const TigerEyeOrange = "#e5a13e"
 class Font {
     constructor(regular, link) {
         this.regular = regular;
@@ -16,3 +17,23 @@ class Theme {
         this.logo = logo;
     }
 }
+
+export const lightTheme = new Theme(
+    "#ffffff",
+    "#fcf5eb",
+    "#f2d09e",
+    TigerEyeOrange,
+    new Font("#000000",TigerEyeOrange),
+    false,
+    ""
+)
+
+export const darkTheme = new Theme(
+    "#000000",
+    "#161006",
+    "#72501f",
+    TigerEyeOrange,
+    new Font("#000000",TigerEyeOrange),
+    false,
+    ""
+)
