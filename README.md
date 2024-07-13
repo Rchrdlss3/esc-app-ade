@@ -38,6 +38,7 @@ MERN Stack Web Application. WIP
 ## Table of Contents
 
 - [Overview](#overview)
+- [API's](#apis)
 - [Installation](#installation)
   - [Server Side](#server-side)
   - [Client Side](#client-side)

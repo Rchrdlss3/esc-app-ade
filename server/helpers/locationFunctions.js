@@ -10,7 +10,7 @@ async function getLocation (ipAddress) {
         console.log(json)
     } catch (e) {
         console.error(e)
-    }
+    } 
 }
 
 module.exports = {getLocation}
