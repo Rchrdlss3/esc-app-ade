@@ -7,7 +7,7 @@ const app = express()
 const userRoute = require('./routes/users');
 const { getLocation } = require('./helpers/locationFunctions');
 const parser = require('ua-parser-js'); 
-const port = 3001;
+const PORT = 3001;
 
 async function connect() {
     try {
@@ -28,6 +28,7 @@ app.get('/api/device-info', (req, res) => {
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
 app.use(express.json())
+app.use(cors());
 app.use('/user', userRoute)
 
 // getLocation("134.201.250.155")
