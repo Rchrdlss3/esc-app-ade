@@ -6,3 +6,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.globe-container {
+  display: flex;            
+  justify-content: center;  
+  align-items: center;   
+  width: 100vw;             
+  height: 100vh;             
+  background-color: black;   
+  overflow: hidden;          
+}
+
+.globe-container canvas {   
+  max-width: 100%;         
+  height: auto;            
+}
