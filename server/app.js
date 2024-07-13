@@ -19,5 +19,5 @@ app.listen(3001)
 app.use(express.json())
 app.use('/user',userRoute)
 
-getLocation("134.201.250.155")
+// getLocation("134.201.250.155")
 connect() 

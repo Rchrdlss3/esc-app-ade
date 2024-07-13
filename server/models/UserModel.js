@@ -18,6 +18,10 @@ const UserSchema = Schema({
     longitude: {
         type: String,
         required: false
+    },
+    geoName : {
+        type: String,
+        required: false
     }
 })
 
