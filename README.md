@@ -69,6 +69,9 @@ npm i nodemon
 ```
 npm i uuid
 ```
+```
+npm i cookie-parser
+```
 #### Client 
 ```
 npm i react-router-dom

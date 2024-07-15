@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const db = mongoose.connection;
 const app = express()
 const userRoute = require('./routes/users');
-const { getLocation } = require('./helpers/locationFunctions');
+const activitiesRoute = require('./routes/activities')
 
 async function connect() {
     try {
@@ -18,6 +18,6 @@ async function connect() {
 app.listen(3001)
 app.use(express.json())
 app.use('/user',userRoute)
-
+app.use('/activities',activitiesRoute)
 // getLocation("134.201.250.155")
 connect() 
