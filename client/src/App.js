@@ -7,6 +7,11 @@ import HomePage from './pages/HomePage';
 import WeatherPage from './pages/WeatherPage';
 import ActivitiesPage from './pages/ActivitiesPage';
 import DreamListPage from './pages/DreamListPage';
+import { getUser, getUserIPAddress } from './functions/userFunctions/user.js';
+
+const ipAddress = await getUserIPAddress();
+
+console.log(getUser(ipAddress));
 
 export default function App() {
   const [theme,setTheme] = useState(getTheme());
