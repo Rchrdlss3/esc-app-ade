@@ -1,9 +1,10 @@
 import React from 'react';
+import { miniComponentStyle } from '../helper/styles/mainStyles';
 export default function CurrentEventsComponent() {
 
     return (
-        <div>
-            <h2>Current Events</h2>
+        <div style = {miniComponentStyle()}>
+            Current Events
         </div>
     );
 };

@@ -1,5 +1,7 @@
+import { miniComponentStyle } from "../helper/styles/mainStyles";
+
 export default function WeatherComponent() {
     return (
-        <div>Weather Data</div>
+        <div style = {miniComponentStyle()}>Weather Data</div>
     );
 };
