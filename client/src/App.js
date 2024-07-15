@@ -22,7 +22,7 @@ export default function App() {
       <HashRouter>
       <NavigationComponent theme = {theme} setTheme = {setTheme}/>
         <Routes>
-          <Route path = "/" element = {<HomePage />} />
+          <Route path = "/" element = {<HomePage theme = {theme}/>} />
           <Route path = "/weather"  element = {<WeatherPage />} />
           <Route path = "/activities" element = {<ActivitiesPage />} />
           <Route path = "/dream-list" element = {<DreamListPage />} />
