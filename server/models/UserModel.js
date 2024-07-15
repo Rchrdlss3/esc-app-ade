@@ -22,6 +22,10 @@ const UserSchema = Schema({
     geoName : {
         type: String,
         required: false
+    },
+    postalCode : {
+        type: String,
+        required: false
     }
 })
 
