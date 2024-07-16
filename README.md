@@ -25,10 +25,7 @@ Connect to MongoDB through VSCode
 Explore your data with playgrounds
 Access your Database Users
 Troubleshoot Connections
-
-
-System StatusAll Good
-©2024 MongoDB, Inc.StatusTermsPrivacyAtlas Blog -->
+ -->
 
 # Esc-App-Ade
 
