@@ -12,7 +12,7 @@ async function connect() {
         await mongoose.connect(process.env.DATABASE_URL)
         console.log("connected")
     } catch(e){
-        res.status(500).send(internalError(e))
+        console.log(e)
     }
 }
 app.listen(3001)

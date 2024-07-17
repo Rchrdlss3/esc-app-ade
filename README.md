@@ -73,6 +73,9 @@ npm i uuid
 ```
 npm i cookie-parser
 ```
+```
+npm i jsonwebtoken
+```
 #### Client 
 ```
 npm i react-router-dom
