@@ -16,6 +16,10 @@ async function connect() {
     }
 }
 app.listen(3001)
+let corsOptions = {
+    origin: ['http://localhost:3000','http://localhost:3001']
+}
+app.use(cors(corsOptions))
 app.use(express.json())
 app.use('/user',userRoute)
 app.use('/activities',activitiesRoute)
