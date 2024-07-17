@@ -26,8 +26,7 @@ Explore your data with playgrounds
 Access your Database Users
 Troubleshoot Connections
  -->
-
-# Esc-App-Ade
+# <img src = "https://rchrdlss3.github.io/Media/escappadelogo.png" width="75" alt="logo" /> Esc-App-Ade
 
 [![My Skills](https://skillicons.dev/icons?i=mongo,express,react,nodejs,js,html,css)](https://skillicons.dev)
 
