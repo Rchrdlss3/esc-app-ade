@@ -56,6 +56,9 @@ MERN Stack Web Application. WIP
 
 ### Server
 ```
+npm i express
+```
+```
 npm i ua-parser-js
 ```
 ```
