@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rchrdlss3/esc-app-ade.git"
+  },
+  "author": "Richard Ulysse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rchrdlss3/esc-app-ade/issues"
+  },
+  "homepage": "https://github.com/Rchrdlss3/esc-app-ade#readme"
+}
