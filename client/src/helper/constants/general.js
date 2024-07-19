@@ -3,4 +3,4 @@ export const GLOBE_EARTH_NIGHT_URL = "https://unpkg.com/three-globe/example/img/
 
 export const escappadeLogo = "https://rchrdlss3.github.io/Media/escappadelogo.png";
 
-export const backendUrl = process.env.REACT_APP_LOCAL_HOST_URL;
+export const backendUrl = process.env.REACT_APP_HOST_URL;
