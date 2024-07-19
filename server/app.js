@@ -15,7 +15,7 @@ async function connect() {
         console.log(e)
     }
 }
-app.listen(3001)
+app.listen(3002)
 let corsOptions = {
     origin: ['http://localhost:3000','http://localhost:3001']
 }
