@@ -10,13 +10,13 @@ export default function GlobeComponent({user,theme}) {
     useEffect(() => {
         setGlobeCanvas(document.getElementById('activities-globe'))
     },[]);
-    const globeData = [{
+    const globeData = user ? [{
         lat: user.latitude,
         lng: user.longitude,
         size: 30,
         label : "You are here",
         color: theme.main
-    }]
+    }] : null
     return (
         <div id ="activities-globe">
         {globeCanvas ?

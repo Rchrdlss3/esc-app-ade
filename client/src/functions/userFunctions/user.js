@@ -9,9 +9,10 @@ export async function getUserIPAddress () {
 }
 
 export async function getUser(reqIPAddress) {
+    console.log(`${backendUrl}/user/get?ipAddress=${reqIPAddress}`)
     const userAndToken = {}
     try {
-        const receivedUser = await fetch(`http://${backendUrl}/user/get?ipAddress=${reqIPAddress}`)
+        const receivedUser = await fetch(`${backendUrl}/user/get?ipAddress=${reqIPAddress}`)
         .then((resp) => resp.json())
         .then((data) => {
             return data
