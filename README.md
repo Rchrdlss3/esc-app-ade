@@ -79,6 +79,9 @@ npm i cookie-parser
 ```
 npm i jsonwebtoken
 ```
+```
+npm i cors
+```
 #### Client 
 ```
 npm i react-router-dom
