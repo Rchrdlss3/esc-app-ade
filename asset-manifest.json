@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/esc-app-ade/static/css/main.93a0497a.css",
-    "main.js": "/esc-app-ade/static/js/main.f98a8c5c.js",
-    "index.html": "/esc-app-ade/index.html",
-    "main.93a0497a.css.map": "/esc-app-ade/static/css/main.93a0497a.css.map",
-    "main.f98a8c5c.js.map": "/esc-app-ade/static/js/main.f98a8c5c.js.map"
+    "main.css": "/static/css/main.93a0497a.css",
+    "main.js": "/static/js/main.f98a8c5c.js",
+    "index.html": "/index.html",
+    "main.93a0497a.css.map": "/static/css/main.93a0497a.css.map",
+    "main.f98a8c5c.js.map": "/static/js/main.f98a8c5c.js.map"
   },
   "entrypoints": [
     "static/css/main.93a0497a.css",
