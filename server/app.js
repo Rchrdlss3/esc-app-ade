@@ -17,7 +17,7 @@ async function connect() {
 }
 app.listen(80)
 let corsOptions = {
-    origin: ['http://localhost:3000','http://localhost:3001']
+    origin: ['http://localhost:3000','http://localhost:3001','https://escappadenow.com']
 }
 app.use(cors(corsOptions))
 app.use(express.json())
