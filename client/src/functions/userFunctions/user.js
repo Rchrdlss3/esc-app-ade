@@ -9,7 +9,6 @@ export async function getUserIPAddress () {
 }
 
 export async function getUser(reqIPAddress) {
-    console.log(`${backendUrl}/user/get?ipAddress=${reqIPAddress}`)
     const userAndToken = {}
     try {
         const receivedUser = await fetch(`${backendUrl}/user/get?ipAddress=${reqIPAddress}`)

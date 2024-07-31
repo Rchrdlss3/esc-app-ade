@@ -3,7 +3,7 @@ import { miniComponentStyle } from "../helper/styles/mainStyles";
 export default function DreamListComponent () {
     return (
         <div style = {miniComponentStyle()}>
-            Dream List 
+            Dream List <span>&#xe081;</span>
         </div>
     )
 }

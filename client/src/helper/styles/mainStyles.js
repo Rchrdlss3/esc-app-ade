@@ -19,3 +19,12 @@ export const miniComponentStyle = () => {
         borderRadius: '5px'
     }
 }
+
+export const overlayBackStyle = () => {
+    return {
+        width: '100vw',
+        height: '100vh',
+        position: 'absolute',
+        filter: 'blur(10px)'
+    }
+}

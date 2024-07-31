@@ -1,11 +1,11 @@
 import GlobeComponent from "../components/GlobeComponent";
 import OverviewComponent from "../components/homePageComponents/OverviewComponent";
 
-export default function HomePage({user,theme}){
+export default function HomePage(){
     return (
         <div style = {{overflow: 'hidden'}}>
             <OverviewComponent />
-            <GlobeComponent user = {user} theme = {theme}/>
+            <GlobeComponent/>
         </div>
     )
 }
